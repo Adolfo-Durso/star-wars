@@ -1,0 +1,234 @@
+*main*/
+main {
+	padding-bottom: 20px;
+}
+.banner {
+	width: 100%;
+	margin-top: 100px;
+}
+ /*página inicial*/
+.sobre-franquia {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.titulo {
+	color: #ffd700;
+	text-align: center;
+	font-size: 50px;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-family: fantasy;
+	margin-left: 5px;
+}
+
+.poster {
+	margin: 10px 10px;
+	display: inline-block;
+	float: left;
+
+}
+
+.segundo-texto {
+	padding-bottom: 15px;
+}
+
+.darthvader {
+	margin: 10px 25px;
+	display: inline-block;
+	float: right;
+}
+
+/* página de personagens*/
+.persons-details {
+	padding: 15px;
+}
+
+.titulo-pagina {
+	font-size: 100px;
+	text-align: center;
+	color: #ffd700;
+}
+
+.foto-anakin {
+	width: 20%;
+	margin-left: 10px;
+	float: left;
+	border-radius: 10px;
+}
+.nome-anakin {
+	font-size: 25px;
+	text-align: center; ;
+	color: #6495ed;
+	display: inline-block;
+}
+ .nome-anakin:hover {
+ 	font-size: 30px;
+}
+
+.foto-obi-wan {
+	width: 20%;
+	right: 80%;
+	float: right;
+	border-radius: 10px;
+}
+.nome-obi {
+	font-size: 25px;
+	margin-left: 65%;
+	color: #6495ed;
+	display: inline-block;
+}
+ .nome-obi:hover {
+ 	font-size: 30px;
+}
+
+.foto-padme {
+	width: 20%;
+	margin-left: 10px;
+	float: left;
+	border-radius: 10px;
+}
+.nome-padme {
+	font-size: 25px;
+	text-align: center; ;
+	color: #ffd700;
+	display: inline-block;
+}
+ .nome-padme:hover {
+ 	font-size: 30px;
+}
+.foto-imperador {
+	width: 20%;
+	right: 80%;
+	float: right;
+	border-radius: 10px;
+}
+.nome-imperador {
+	font-size: 25px;
+	margin-left: 67%;
+	color: red;
+	display: inline-block;
+}
+ .nome-imperador:hover {
+ 	font-size: 30px;
+}
+
+.foto-yoda {
+	width: 20%;
+	margin-left: 10px;
+	float: left;
+	border-radius: 10px;
+}
+.nome-yoda {
+	font-size: 25px;
+	text-align: center; ;
+	color: green;
+	display: inline-block;
+}
+ .nome-yoda:hover {
+ 	font-size: 30px;
+}
+
+.foto-windu {
+	width: 20%;
+	right: 80%;
+	float: right;
+	border-radius: 10px;
+}
+.nome-windu {
+	font-size: 25px;
+	margin-left: 68%;
+	color: purple;
+	display: inline-block;
+}
+ .nome-windu:hover {
+ 	font-size: 30px;
+}
+.sobre-windu-button {
+	margin-bottom: 40px;
+}
+
+/*Resumo dos Filmes*/
+
+.capa {
+	width: 220px;
+	float: left;
+	margin-left: 5px;
+	border-radius: 15px;
+}
+
+.capa:hover {
+	width: 300px;
+}
+
+.resumo, .sobre-anakin, .sobre-obi-wan, .sobre-padme, .sobre-imperador, .sobre-yoda, .sobre-windu, .sobre-windu-button{
+	font-size: 20px;
+}
+ 
+ /*Página trailers*/
+.titulo-filme {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 25px;
+	color: #ffd700;
+	text-align: center;
+	transition: 1s;
+}
+
+.titulo-filme:hover {
+	font-size: 40px;
+	text-decoration: underline red;
+}
+
+.trailer {
+	margin-left: 24%;
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+	.capa {
+		width: auto;
+	}
+	.darthvader {
+		width: 200px;
+	}
+	.poster {
+		width: 200px;
+	}
+	.titulo-pagina {
+		font-size: 70px;
+	}
+	.foto-anakin, .foto-padme, .foto-yoda {
+		width: 40%;
+	}
+	.foto-obi-wan, .foto-imperador, .foto-windu {
+		width: 162px;
+	}
+	.nome-obi {
+		margin-left: 50px;
+	}
+	.nome-imperador, .nome-windu {
+		margin-left: 75px;
+	}
+	.sobre-windu-button {
+		margin-bottom: 10px;
+	}
+	.capa {
+		width: 50%;
+		margin-left: 5px;
+	}
+	.resumo, .sobre-anakin, .sobre-obi-wan, .sobre-padme, .sobre-imperador, .sobre-yoda, .sobre-windu, .sobre-windu-button {
+		font-size: 17px;
+		margin: 0 10px;
+	}
+	.trailer {
+		width: auto;
+		margin: 0 0 0 60px;
+	}
+	.titulo-filme {
+		margin-right: 8px;
+	}
+}
